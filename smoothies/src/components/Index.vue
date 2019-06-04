@@ -1,6 +1,6 @@
 <template>
-  <div class="hello">
-    
+  <div class="index container">
+    <div class="card" v-for="smoothie in smoothies" :key=></div>
   </div>
 </template>
 
