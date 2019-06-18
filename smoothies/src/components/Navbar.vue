@@ -5,6 +5,11 @@
                 <router-link :to="{ name: 'Index' }">
                     <span class="nav-title">Ninja Smoothies</span>
                 </router-link>
+                <a href="" class="btn-large halfway-fab">
+                    <router-link :to="{name: 'Login'}">
+                        LOGIN
+                    </router-link>
+                </a>
                 <a href="" class="btn-floating btn-large halfway-fab pink">
                     <router-link :to="{ name: 'AddSmoothie' }">
                         <i class="material-icons">add</i>
